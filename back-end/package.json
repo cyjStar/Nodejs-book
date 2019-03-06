@@ -1,0 +1,23 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "hotnode ./bin/www",
+    "test": "hotnode ./test/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "http-errors": "^1.7.2",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.17",
+    "morgan": "^1.9.1"
+  }
+}
